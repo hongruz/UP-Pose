@@ -39,20 +39,20 @@ PennController.Template(
 //     newText(variable.Description)
 //         .unfold(2600)
 //     ,
-    newImage("two", variable.PluralImageFile)
+    newImage("false_sklt", variable.false_sklt)
         .settings.size(200,200)
     ,
-    newImage("one", variable.SingularImageFile)
+    newImage("true_sklt", variable.true_sklt)
         .settings.size(200,200)
     ,
     newCanvas(450,200)
-        .settings.add(   0 , 0 , getImage("two") )
-        .settings.add( 250 , 0 , getImage("one") )
+        .settings.add(   0 , 0 , getImage("false_sklt") )
+        .settings.add( 250 , 0 , getImage("true_sklt") )
         .print()
     ,
     newSelector()
-        .settings.add( getImage("two") , getImage("one") )
-        .shuffle()
+        .settings.add( getImage("false_sklt") , getImage("true_sklt") )
+//         .shuffle()
         .settings.keys(          "F"    ,          "J"   )
         .settings.log()
         .wait()
