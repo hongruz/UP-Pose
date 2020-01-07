@@ -29,10 +29,10 @@ PennController.Template(
     newTimer(500)
         .start()
         .wait()
-    ,
+//     ,
 //     newAudio("description", variable.AudioFile)
 //         .play()
-    ,
+//     ,
 //     newText(variable.Description)
 //         .unfold(2600)
 //     ,
@@ -53,7 +53,7 @@ PennController.Template(
         .settings.keys(          "F"    ,          "J"   )
         .settings.log()
         .wait()
-//     ,
+    ,
 //     getAudio("description")
 //        .wait("first")
 //     ,
