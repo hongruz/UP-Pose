@@ -30,12 +30,12 @@ PennController.Template(
         .start()
         .wait()
     ,
-    newAudio("description", variable.AudioFile)
-        .play()
+//     newAudio("description", variable.AudioFile)
+//         .play()
     ,
-    newText(variable.Description)
-        .unfold(2600)
-    ,
+//     newText(variable.Description)
+//         .unfold(2600)
+//     ,
     newImage("two", variable.PluralImageFile)
         .settings.size(200,200)
     ,
@@ -53,10 +53,10 @@ PennController.Template(
         .settings.keys(          "F"    ,          "J"   )
         .settings.log()
         .wait()
-    ,
-    getAudio("description")
-       .wait("first")
-    ,
+//     ,
+//     getAudio("description")
+//        .wait("first")
+//     ,
     newTimer(500)
         .start()
         .wait()
