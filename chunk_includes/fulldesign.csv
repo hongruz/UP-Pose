@@ -1,9 +1,9 @@
 natural_img,true_sklt,false_sklt,AudioFile,Description,PluralImageFile,SingularImageFile,Item,Group,Ending,Duration
-00000_image.png,sklt_1.png,sklt_2.png,1fishSquareTank.mp3,The fish swims in a tank which is perfectly square,2fishRoundTank.png,1fishSquareTank.png,fish,A,-s,2600
-00001_image.png,sklt_2.png,sklt_3.png,2fishRoundTank.mp3,The fish swim in a tank which is perfectly round,2fishRoundTank.png,1fishSquareTank.png,fish,A,No-s,2600
-00002_image.png,sklt_3.png,sklt_4.png,1deerDenseWood.mp3,The deer runs in a wood which is extremely dense,2deerSparseWood.png,1deerDenseWood.png,deer,A,-s,2500
-00003_image.png,sklt_4.png,sklt_5.png,2deerSparseWood.mp3,The deer run in a wood which is extremely sparse,2deerSparseWood.png,1deerDenseWood.png,deer,A,No-s,2500
-00004_image.png,sklt_5.png,sklt_6.png,1sheepRedPen.mp3,The sheep roams in a pen which is strikingly red,2sheepBluePen.png,1sheepRedPen.png,sheep,A,-s,2200
-00005_image.png,sklt_6.png,sklt_7.png,2sheepBluePen.mp3,The sheep roam in a pen which is strikingly blue,2sheepBluePen.png,1sheepRedPen.png,sheep,A,No-s,2200
-00006_image.png,sklt_7.png,sklt_8.png,1mooseNewPark.mp3,The moose walks in a park which is visibly new,2mooseOldPark.png,1mooseNewPark.png,moose,A,-s,2200
-00007_image.png,sklt_8.png,sklt_9.png,2mooseOldPark.mp3,The moose walk in a park which is visibly old,2mooseOldPark.png,1mooseNewPark.png,moose,A,No-s,2200
+00000_image.png,sklt_1.png,sklt_1.png,1fishSquareTank.mp3,The fish swims in a tank which is perfectly square,2fishRoundTank.png,1fishSquareTank.png,fish,A,-s,2600
+00001_image.png,sklt_2.png,sklt_2.png,2fishRoundTank.mp3,The fish swim in a tank which is perfectly round,2fishRoundTank.png,1fishSquareTank.png,fish,A,No-s,2600
+00002_image.png,sklt_3.png,sklt_3.png,1deerDenseWood.mp3,The deer runs in a wood which is extremely dense,2deerSparseWood.png,1deerDenseWood.png,deer,A,-s,2500
+00003_image.png,sklt_4.png,sklt_4.png,2deerSparseWood.mp3,The deer run in a wood which is extremely sparse,2deerSparseWood.png,1deerDenseWood.png,deer,A,No-s,2500
+00004_image.png,sklt_5.png,sklt_5.png,1sheepRedPen.mp3,The sheep roams in a pen which is strikingly red,2sheepBluePen.png,1sheepRedPen.png,sheep,A,-s,2200
+00005_image.png,sklt_6.png,sklt_6.png,2sheepBluePen.mp3,The sheep roam in a pen which is strikingly blue,2sheepBluePen.png,1sheepRedPen.png,sheep,A,No-s,2200
+00006_image.png,sklt_7.png,sklt_7.png,1mooseNewPark.mp3,The moose walks in a park which is visibly new,2mooseOldPark.png,1mooseNewPark.png,moose,A,-s,2200
+00007_image.png,sklt_8.png,sklt_8.png,2mooseOldPark.mp3,The moose walk in a park which is visibly old,2mooseOldPark.png,1mooseNewPark.png,moose,A,No-s,2200
