@@ -1,9 +1,6 @@
-PennController.ResetPrefix(null); // Initiates PennController
-
-// Start typing your code here
-
-PennController.ResetPrefix(null);
-PennController(
+PennController.ResetPrefix(null)
+PennController.Sequence( "welcome" , randomize("experiment") , "send" , "final" )
+PennController( "welcome" ,
     defaultText
         .print()
     ,
@@ -27,14 +24,22 @@ PennController(
         .set( getTextInput("ID") )
 )
 .log( "ID" , getVar("ID") )
-PennController(
-    newText("The fish swim in a tank which is perfectly round")
-        .print()
+PennController.Template( 
+  variable => PennController( "experiment" ,
+    newTimer(500)
+        .start()
+        .wait()
     ,
-    newImage("two", "2fishRoundTank.png")
+    newAudio("description", variable.AudioFile)
+        .play()
+    ,
+    newText(variable.Description)
+        .unfold(2600)
+    ,
+    newImage("two", variable.PluralImageFile)
         .settings.size(200,200)
     ,
-    newImage("one", "1fishSquareTank.png")
+    newImage("one", variable.SingularImageFile)
         .settings.size(200,200)
     ,
     newCanvas(450,200)
@@ -42,13 +47,27 @@ PennController(
         .settings.add( 250 , 0 , getImage("one") )
         .print()
     ,
-    newKey("")
+    newSelector()
+        .settings.add( getImage("two") , getImage("one") )
+        .shuffle()
+        .settings.keys(          "F"    ,          "J"   )
         .settings.log()
         .wait()
+    ,
+    getAudio("description")
+       .wait("first")
+    ,
+    newTimer(500)
+        .start()
+        .wait()
+  )
+  .log( "ID"     , getVar("ID")    )
+  .log( "Item"   , variable.Item   )
+  .log( "Ending" , variable.Ending )
+  .log( "Group"  , variable.Group  )
 )
-.log( "ID" , getVar("ID") )
-PennController.SendResults()
-PennController(
+PennController.SendResults( "send" )
+PennController( "final" ,
     newText("<p>Thank you for your participation!</p>")
         .print()
     ,
