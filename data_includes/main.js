@@ -30,6 +30,9 @@ PennController.Template(
         .start()
         .wait()
     ,
+    newImage("natural_image", variable.natural_img)
+        .print()
+    ,
 //     newAudio("description", variable.AudioFile)
 //         .play()
 //     ,
