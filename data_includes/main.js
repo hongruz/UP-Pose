@@ -65,9 +65,9 @@ PennController.Template(
         .wait()
   )
   .log( "ID"     , getVar("ID")    )
-  .log( "Item"   , variable.Item   )
-  .log( "Ending" , variable.Ending )
-  .log( "Group"  , variable.Group  )
+//   .log( "Item"   , variable.Item   )
+//   .log( "Ending" , variable.Ending )
+//   .log( "Group"  , variable.Group  )
 )
 PennController.SendResults( "send" )
 PennController( "final" ,
