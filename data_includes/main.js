@@ -6,9 +6,7 @@ PennController( "welcome" ,
     ,
     newText("<p>Welcome!</p>")
     ,
-    newText("<p>In this experiment, you will have to report which of two pictures matches a description.</p>")
-    ,
-    newText("<p>Press the <strong>F</strong> key for the picture on the left, or the <strong>J</strong> key for the picture on the right.</p>")
+    newText("<p>In this experiment, you will have to click which of two stick figures matches the body pose in the natural image better.</p>")
     ,
     newText("<p>Please enter your ID and then click the button below to start the experiment.</p>")
     ,
@@ -75,9 +73,9 @@ PennController( "final" ,
     newText("<p>Thank you for your participation!</p>")
         .print()
     ,
-    newText("<p><a href='https://www.put.your/platform/confirmation/link.here'>Click here to validate your participation.</a></p>")
-        .print()
-    ,
+//     newText("<p><a href='https://www.put.your/platform/confirmation/link.here'>Click here to validate your participation.</a></p>")
+//         .print()
+//     ,
     newButton("void")
         .wait()
 )
