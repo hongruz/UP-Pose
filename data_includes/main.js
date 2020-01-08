@@ -64,6 +64,7 @@ PennController.Template(
         .wait()
   )
   .log( "ID"     , getVar("ID")    )
+  .log( "natural_img"     , variable.natural_img    )
 //   .log( "Item"   , variable.Item   )
 //   .log( "Ending" , variable.Ending )
 //   .log( "Group"  , variable.Group  )
