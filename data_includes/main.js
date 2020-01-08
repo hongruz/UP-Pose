@@ -31,6 +31,7 @@ PennController.Template(
         .wait()
     ,
     newImage("natural_image", variable.natural_img)
+        .settings.size(500,500)
         .print()
     ,
 //     newAudio("description", variable.AudioFile)
@@ -40,14 +41,14 @@ PennController.Template(
 //         .unfold(2600)
 //     ,
     newImage("false_sklt", variable.false_sklt)
-        .settings.size(200,200)
+        .settings.size(220,220)
     ,
     newImage("true_sklt", variable.true_sklt)
-        .settings.size(200,200)
+        .settings.size(220,220)
     ,
-    newCanvas(450,200)
+    newCanvas(500,220)
         .settings.add(   0 , 0 , getImage("false_sklt") )
-        .settings.add( 250 , 0 , getImage("true_sklt") )
+        .settings.add( 280 , 0 , getImage("true_sklt") )
         .print()
     ,
     newSelector()
