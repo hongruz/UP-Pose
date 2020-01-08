@@ -51,7 +51,7 @@ PennController.Template(
     ,
     newSelector()
         .settings.add( getImage("false_sklt") , getImage("true_sklt") )
-//         .shuffle()
+        .shuffle()
         .settings.keys(          "F"    ,          "J"   )
         .settings.log()
         .wait()
