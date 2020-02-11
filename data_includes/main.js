@@ -199,25 +199,25 @@ PennController( "final" ,
     newText("<p>Thank you for your participation!</p>")
         .print()
     ,
-    newText("<p>If you have any comments, please leave it here.</p>")
-        .print()
-    ,
-    newTextInput("comments")
-        .print()
-    ,
-    
-    newButton("Submit")
-        .print()
-        .wait()
-    ,
-    newVar("comments")
-        .settings.global()
-        .set( getTextInput("comments") )
-//     newText("<p><a href='https://www.put.your/platform/confirmation/link.here'>Click here to validate your participation.</a></p>")
+//     newText("<p>If you have any comments, please leave it here.</p>")
 //         .print()
 //     ,
-    // ,
-    // newButton("void")
-    //     .wait()
+//     newTextInput("comments")
+//         .print()
+//     ,
+    
+//     newButton("Submit")
+//         .print()
+//         .wait()
+//     ,
+//     newVar("comments")
+//         .settings.global()
+//         .set( getTextInput("comments") )
+// //     newText("<p><a href='https://www.put.your/platform/confirmation/link.here'>Click here to validate your participation.</a></p>")
+// //         .print()
+// //     ,
+//     // ,
+    newButton("void")
+        .wait()
 )
-.log( "comments" , getVar("comments") )
+// .log( "comments" , getVar("comments") )
