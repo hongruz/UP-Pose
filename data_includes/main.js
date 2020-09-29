@@ -14,11 +14,14 @@ PennController( "welcome" ,
     ,
     newText("<p>Welcome!</p>")
     ,
-    newText("<p>In this experiment, you will have to match synthetic human bodies with human bodies in the natural image in terms of their <b>body poses</b>.</p>")
+//     newText("<p>In this experiment, you will have to match synthetic human bodies with human bodies in the natural image in terms of their <b>body poses</b>.</p>")
+    newText("<p>In this experiment, you will have to match synthetic human bodies in terms of their <b>body poses</b>.</p>")
     ,
-    newText("<p>In each trial, you will see a natural image on the top and two synthetic human images on the bottom of the screen. The two synthetic human bodies may be rotated together to some degree. <br> Your task is to ignore the viewpoint differences and compare synthetic human poses with the pose in the natural image. <br><b>To complete one trial, you will click the synthetic human image whose pose matches the pose in the natural image better, regardless of the viewpoint differences</b>.</p>")
+//     newText("<p>In each trial, you will see a natural image on the top and two synthetic human images on the bottom of the screen. The two synthetic human bodies may be rotated together to some degree. <br> Your task is to ignore the viewpoint differences and compare synthetic human poses with the pose in the natural image. <br><b>To complete one trial, you will click the synthetic human image whose pose matches the pose in the natural image better, regardless of the viewpoint differences</b>.</p>")
+    newText("<p>In each trial, you will see a target synthetic image on the top and two synthetic human images on the bottom of the screen. The two synthetic human bodies at the bottom may be rotated together to some degree. <br> Your task is to ignore the viewpoint differences and compare the two synthetic human poses at the bottom with the human pose at the top. <br><b>To complete one trial, you will click the bottom synthetic human image whose pose matches the pose at the top better, regardless of the viewpoint differences</b>.</p>")
     ,
-    newText("<p><b>Even if you cannot decide which synthetic human is more similar to the one in the natural image in some trials, you should still select one in order to move forward to the next trial.</b></p>")
+//     newText("<p><b>Even if you cannot decide which synthetic human is more similar to the one in the natural image in some trials, you should still select one in order to move forward to the next trial.</b></p>")
+    newText("<p><b>Even if you cannot decide which synthetic human at the bottom is more similar to the one at the top in some trials, you should still select one in order to move forward to the next trial.</b></p>")
     ,
     newText("<p>There are two blocks with a total of 200 trials. There will be a break after the first 100 trials. Please enter your nickname (whatever string you like!) and click <i>Start</i> to start practice trials.</p>")
     ,
