@@ -49,7 +49,8 @@ PennController( "demo1" ,
     // ,
     newText("<p>Example Trial 1</p>")
     ,
-    newImage("natural_image", "00000_sq.png")
+//     newImage("natural_image", "00000_sq.png")
+    newImage("natural_image", "00000_3d_body_ori_norot.png")
         .settings.size(400,400)
         .print()
     ,
@@ -92,7 +93,8 @@ PennController( "demo1" ,
     // ,
     newText("<p>Example Trial 2</p>")
     ,
-    newImage("natural_image", "00001_sq.png")
+//     newImage("natural_image", "00001_sq.png")
+    newImage("natural_image", "00001_3d_body_ori_norot.png")
         .settings.size(400,400)
         .print()
     ,
@@ -135,7 +137,8 @@ PennController( "demo1" ,
     // ,
     newText("<p>Example Trial 3</p>")
     ,
-    newImage("natural_image", "00004_sq.png")
+//     newImage("natural_image", "00004_sq.png")
+    newImage("natural_image", "00004_3d_body_ori_norot.png")
         .settings.size(400,400)
         .print()
     ,
